@@ -1,0 +1,29 @@
+
+enum Status {
+       COMPLETED, 
+       CONTINUES
+}
+entity ToDoItems {
+	todoItemName String required,
+	description String,
+	deadline ZonedDateTime,
+    status    Status required
+}
+
+entity ToDoList {
+	todoListName String required
+    }
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+    ToDoList{toDoListToDoItems} to ToDoItems{toDoList(todoListName) required}
+}
+
+service all with serviceImpl
+paginate ToDoItems with infinite-scroll
+
+
+
+
+
+

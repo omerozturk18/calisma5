@@ -1,0 +1,47 @@
+{
+    "name": "ToDoItems",
+    "fields": [
+        {
+            "fieldName": "todoItemName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "deadline",
+            "fieldType": "ZonedDateTime"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "Status",
+            "fieldValues": "COMPLETED,CONTINUES",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "toDoList",
+            "otherEntityRelationshipName": "toDoListToDoItems",
+            "relationshipValidateRules": "required",
+            "relationshipName": "toDoList",
+            "otherEntityField": "todoListName"
+        }
+    ],
+    "changelogDate": "20190717014319",
+    "entityTableName": "to_do_items",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}

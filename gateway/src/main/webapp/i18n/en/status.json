@@ -1,0 +1,9 @@
+{
+  "gatewayApp": {
+    "Status": {
+      "null": "",
+      "COMPLETED": "COMPLETED",
+      "CONTINUES": "CONTINUES"
+    }
+  }
+}

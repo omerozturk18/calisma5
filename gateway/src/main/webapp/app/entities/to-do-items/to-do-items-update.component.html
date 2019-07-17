@@ -1,0 +1,72 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-to-do-items-heading" jhiTranslate="gatewayApp.toDoItems.home.createOrEditLabel">Create or edit a To Do Items</h2>
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+                <div class="form-group" [hidden]="!editForm.get('id').value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id"
+                        readonly />
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="gatewayApp.toDoItems.todoItemName" for="field_todoItemName">Todo Item Name</label>
+                    <input type="text" class="form-control" name="todoItemName" id="field_todoItemName"
+                           formControlName="todoItemName"/>
+                    <div *ngIf="editForm.get('todoItemName').invalid && (editForm.get('todoItemName').dirty || editForm.get('todoItemName').touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('todoItemName').errors.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="gatewayApp.toDoItems.description" for="field_description">Description</label>
+                    <input type="text" class="form-control" name="description" id="field_description"
+                           formControlName="description"/>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="gatewayApp.toDoItems.deadline" for="field_deadline">Deadline</label>
+                    <div class="d-flex">
+                        <input id="field_deadline" type="datetime-local" class="form-control" name="deadline" formControlName="deadline" placeholder="YYYY-MM-DD HH:mm"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="gatewayApp.toDoItems.status" for="field_status">Status</label>
+                    <select class="form-control" name="status" formControlName="status" id="field_status">
+                        <option value="COMPLETED">{{'gatewayApp.Status.COMPLETED' | translate}}</option>
+                        <option value="CONTINUES">{{'gatewayApp.Status.CONTINUES' | translate}}</option>
+                    </select>
+                    <div *ngIf="editForm.get('status').invalid && (editForm.get('status').dirty || editForm.get('status').touched)">
+                        <small class="form-text text-danger"
+                               *ngIf="editForm.get('status').errors.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                        </small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="gatewayApp.toDoItems.toDoList" for="field_toDoList">To Do List</label>
+                    <select class="form-control" id="field_toDoList" name="toDoList" formControlName="toDoList">
+                        <option *ngIf="!editForm.get('toDoList').value" [ngValue]="null" selected></option>
+                        <option [ngValue]="toDoListOption.id === editForm.get('toDoList').value?.id ? editForm.get('toDoList').value : toDoListOption" *ngFor="let toDoListOption of todolists; trackBy: trackToDoListById">{{toDoListOption.todoListName}}</option>
+                    </select>
+                </div>
+                <div *ngIf="editForm.get('toDoList').invalid && (editForm.get('toDoList').dirty || editForm.get('toDoList').touched)">
+                    <small class="form-text text-danger"
+                           *ngIf="editForm.get('toDoList').errors.required" jhiTranslate="entity.validation.required">
+                        This field is required.
+                    </small>
+                </div>
+            </div>
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary"  (click)="previousState()">
+                    <fa-icon [icon]="'ban'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon [icon]="'save'"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

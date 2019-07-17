@@ -1,0 +1,30 @@
+{
+    "name": "ToDoList",
+    "fields": [
+        {
+            "fieldName": "todoListName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "toDoItems",
+            "otherEntityRelationshipName": "toDoList",
+            "relationshipName": "toDoListToDoItems"
+        }
+    ],
+    "changelogDate": "20190717014151",
+    "entityTableName": "to_do_list",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "backend",
+    "applications": "*",
+    "microserviceName": "backend"
+}

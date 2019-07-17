@@ -1,0 +1,1218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d8e065f6-509d-44c2-bf5d-102118036571" name="Default Changelist" comment="mn">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.jhipster/Product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.jhipster/ToDoItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.jhipster/ToDoList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/.yo-rc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/sonar-project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/central-server-config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/central-server-config/docker-config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/central-server-config/localhost-config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/grafana/provisioning/dashboards/JVM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/grafana/provisioning/dashboards/dashboard.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/grafana/provisioning/datasources/datasource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/hazelcast-management-center.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/jhipster-registry.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/monitoring.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/mysql.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/docker/sonar.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/ApplicationWebXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/BackendApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/aop/logging/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/client/UserFeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/AsyncConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/CloudDatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/DateTimeFormatConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/DefaultProfileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/FeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/JacksonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/LiquibaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/LocaleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/LoggingAspectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/LoggingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/WebConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/audit/AuditEventConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/audit/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/config/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/AbstractAuditingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/PersistentAuditEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/ToDoItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/ToDoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/enumeration/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/repository/ToDoItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/repository/ToDoListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/repository/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/AuthoritiesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/SpringSecurityAuditorAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/jwt/JWTConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/jwt/JWTFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/security/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/service/ToDoItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/service/ToDoListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/service/impl/ToDoItemsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/service/impl/ToDoListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/ProductResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/ToDoItemsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/ToDoListResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/errors/BadRequestAlertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/errors/ErrorConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/errors/FieldErrorVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/errors/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/vm/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/jib/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/application-tls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/bootstrap-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190715090058_added_entity_Product.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716230137_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716230137_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716230138_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716231250_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716231250_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716231251_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716232644_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716232644_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716232645_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716233613_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716233613_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190716233614_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190717003017_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190717003017_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190717003018_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190717014150_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190717014150_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/changelog/20190717014151_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/data/product.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/data/to_do_items.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/data/to_do_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/config/tls/keystore.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/i18n/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/config/WebConfigurerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/config/WebConfigurerTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/config/timezone/HibernateTimeZoneIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/repository/timezone/DateTimeWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/repository/timezone/DateTimeWrapperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/security/SecurityUtilsUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/security/jwt/JWTFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/security/jwt/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/web/rest/ProductResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/web/rest/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/web/rest/ToDoItemsResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/web/rest/ToDoListResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslatorIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslatorTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/config/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/i18n/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/.yo-rc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/README-DOCKER-COMPOSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/central-server-config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/jhipster-console.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/jhipster-registry.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/log-conf/logstash.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose/log-data/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.huskyrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.jhipster/Product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.jhipster/ToDoItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.jhipster/ToDoList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/.yo-rc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/proxy.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/sonar-project.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/app.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/central-server-config/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/central-server-config/docker-config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/central-server-config/localhost-config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/grafana/provisioning/dashboards/JVM.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/grafana/provisioning/dashboards/dashboard.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/grafana/provisioning/datasources/datasource.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/hazelcast-management-center.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/jhipster-registry.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/monitoring.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/mysql.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/sonar.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/ApplicationWebXml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/GatewayApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/aop/logging/LoggingAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/client/UserFeignClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/ApplicationProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/AsyncConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/CacheConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/CloudDatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/DatabaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/DateTimeFormatConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/DefaultProfileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/FeignConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/GatewayConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/JacksonConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/LiquibaseConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/LocaleConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/LoggingAspectConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/LoggingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/WebConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/apidoc/GatewaySwaggerResourcesProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/audit/AuditEventConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/audit/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/config/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/AbstractAuditingEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/Authority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/PersistentAuditEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/ToDoItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/ToDoList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/enumeration/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/gateway/TokenRelayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/gateway/accesscontrol/AccessControlFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/gateway/ratelimiting/RateLimitingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/gateway/responserewriting/SwaggerBasePathRewritingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/AuthorityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/CustomAuditEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/PersistenceAuditEventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/ToDoItemsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/ToDoListRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/repository/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/AuthoritiesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/DomainUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/SpringSecurityAuditorAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/UserNotActivatedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/jwt/JWTConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/jwt/JWTFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/jwt/TokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/security/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/AuditEventService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/ToDoItemsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/ToDoListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/dto/PasswordChangeDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/dto/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/impl/ToDoItemsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/impl/ToDoListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/mapper/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/service/util/RandomUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/AccountResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/AuditResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/ClientForwardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/GatewayResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/ToDoItemsResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/ToDoListResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/UserJWTController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/BadRequestAlertException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/EmailAlreadyUsedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/EmailNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/ErrorConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/FieldErrorVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/LoginAlreadyUsedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/errors/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/vm/KeyAndPasswordVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/vm/LoginVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/vm/ManagedUserVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/vm/RouteVM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/web/rest/vm/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/jib/entrypoint.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/banner.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application-tls.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/00000000000000_initial_schema.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716230300_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716230300_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716230301_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716231308_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716231308_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716231309_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716232701_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716232701_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716232702_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716233632_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716233632_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190716233633_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190717003110_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190717003110_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190717003111_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190717014319_added_entity_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190717014319_added_entity_constraints_ToDoItems.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/changelog/20190717014320_added_entity_ToDoList.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/data/authority.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/data/to_do_items.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/data/to_do_list.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/data/user.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/data/user_authority.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/liquibase/master.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/config/tls/keystore.p12" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/i18n/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/templates/mail/activationEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/templates/mail/creationEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/resources/templates/mail/passwordResetEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/account.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/account.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/activate/activate.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/activate/activate.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/activate/activate.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/activate/activate.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/finish/password-reset-finish.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/init/password-reset-init.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/init/password-reset-init.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/init/password-reset-init.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password-reset/init/password-reset-init.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password/password-strength-bar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password/password-strength-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password/password.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password/password.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password/password.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/password/password.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/register/register.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/register/register.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/register/register.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/settings/settings.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/settings/settings.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/account/settings/settings.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/admin.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/admin.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/audits/audit-data.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/audits/audit.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/audits/audits.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/audits/audits.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/audits/audits.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/audits/audits.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/configuration/configuration.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/configuration/configuration.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/configuration/configuration.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/configuration/configuration.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/docs/docs.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/docs/docs.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/docs/docs.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/gateway/gateway-route.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/gateway/gateway-routes.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/gateway/gateway.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/gateway/gateway.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/gateway/gateway.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/health/health-modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/health/health-modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/health/health.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/health/health.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/health/health.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/health/health.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/logs/log.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/logs/logs.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/logs/logs.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/logs/logs.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/logs/logs.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/metrics/metrics.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/metrics/metrics.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/metrics/metrics.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/metrics/metrics.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-delete-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/app.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/app.main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/blocks/config/prod.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/blocks/config/uib-pagination.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/blocks/interceptor/auth-expired.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/blocks/interceptor/auth.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/blocks/interceptor/errorhandler.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/blocks/interceptor/notification.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/auth/account.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/auth/auth-jwt.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/auth/csrf.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/auth/state-storage.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/auth/user-route-access-service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/core.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/language/language.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/language/language.helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/login/login-modal.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/login/login.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/user/account.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/user/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/core/user/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product-delete-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product-delete-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product-update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product-update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/backend/product/product.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/entity.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-delete-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-delete-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-delete-dialog.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-delete-dialog.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-detail.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-detail.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/home/home.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/home/home.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/home/home.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/home/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/error/error.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/error/error.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/error/error.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/footer/footer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/footer/footer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/main/main.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/main/main.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/active-menu.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/navbar/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/profiles/page-ribbon.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/profiles/page-ribbon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/profiles/profile-info.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/layouts/profiles/profile.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/alert/alert-error.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/alert/alert.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/auth/has-any-authority.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/constants/error.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/constants/input.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/constants/pagination.constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/language/find-language-from-key.pipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/model/backend/product.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/model/to-do-items.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/model/to-do-list.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/shared-common.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/shared-libs.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/util/datepicker-adapter.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/shared/util/request-util.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/app/vendor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/css/loading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_0.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_0_head-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_0_head-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_0_head-384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_0_head-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_1_head-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_1_head-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_1_head-384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_1_head-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_2_head-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_2_head-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_2_head-384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_2_head-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_3_head-192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_3_head-256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_3_head-384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/jhipster_family_member_3_head-512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/images/logo-jhipster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/scss/_bootstrap-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/scss/global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/content/scss/vendor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/activate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/audits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/backendProduct.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/gateway.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/health.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/metrics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/reset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/sessions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/status.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/toDoItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/toDoList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/user-management.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/activate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/audits.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/backendProduct.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/configuration.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/error.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/gateway.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/global.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/health.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/logs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/metrics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/register.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/reset.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/sessions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/status.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/toDoItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/toDoList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/user-management.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/manifest.webapp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/swagger-ui/dist/images/throbber.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/webapp/swagger-ui/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/config/WebConfigurerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/config/WebConfigurerTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/config/timezone/HibernateTimeZoneIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/gateway/responserewriting/SwaggerBasePathRewritingFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/repository/CustomAuditEventRepositoryIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/repository/timezone/DateTimeWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/repository/timezone/DateTimeWrapperRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/security/DomainUserDetailsServiceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/security/SecurityUtilsUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/security/jwt/JWTFilterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/security/jwt/TokenProviderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/service/MailServiceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/service/UserServiceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/service/mapper/UserMapperIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/AccountResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/AuditResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/ClientForwardControllerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/ToDoItemsResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/ToDoListResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/UserJWTControllerIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/UserResourceIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslatorIT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/java/com/mycompany/myapp/web/rest/errors/ExceptionTranslatorTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/jest-global-mocks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/jest.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/jest.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/activate/activate.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/password-reset/finish/password-reset-finish.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/password-reset/init/password-reset-init.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/password/password-strength-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/password/password.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/register/register.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/account/settings/settings.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/audits/audits.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/audits/audits.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/configuration/configuration.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/configuration/configuration.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/health/health.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/logs/logs.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/logs/logs.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/metrics/metrics.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/metrics/metrics.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/user-management/user-management-delete-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/user-management/user-management-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/user-management/user-management-update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/admin/user-management/user-management.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/core/user/account.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/core/user/user.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/backend/product/product-delete-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/backend/product/product-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/backend/product/product-update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/backend/product/product.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/backend/product/product.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-items/to-do-items-delete-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-items/to-do-items-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-items/to-do-items-update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-items/to-do-items.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-items/to-do-items.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-list/to-do-list-delete-dialog.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-list/to-do-list-detail.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-list/to-do-list-update.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-list/to-do-list.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-list/to-do-list.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/shared/alert/alert-error.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/app/shared/login/login.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-account.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-active-modal.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-alert.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-event-manager.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-language.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-login.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-route.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/mock-state-storage.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/helpers/spyobject.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/javascript/spec/test.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/config/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/config/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/i18n/messages_tr.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/test/resources/templates/mail/testEmail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/todo.jh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/tsconfig-aot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/webpack/logo-jhipster.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/webpack/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/webpack/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/webpack/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/webpack/webpack.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jhipster-registry" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/gateway/node_modules/generator-jhipster/generators/server/templates/target/" />
+    <ignored path="$PROJECT_DIR$/jhipster-registry/node_modules/generator-jhipster/generators/server/templates/target/" />
+    <ignored path="$PROJECT_DIR$/backend/node_modules/generator-jhipster/generators/server/templates/target/" />
+    <ignored path="$PROJECT_DIR$/jhipster-registry/target/" />
+    <ignored path="$PROJECT_DIR$/backend/target/" />
+    <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="17" column="126" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-update.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>editForm</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gateway" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="9d3e8e48-b697-41d8-bc96-b485d0fb566d" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/error.json" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/toDoItems.json" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/toDoList.json" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/status.json" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.component.html" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.component.html" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.ts" />
+        <option value="$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+    <option name="enabledProfiles">
+      <list>
+        <option value="swagger" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="myapp" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="i18n" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563326337316" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="C:\Workspace\hu\jhipster-registry\node_modules\typescript\lib" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.JHipsterRegistryApp">
+    <configuration name="BackendApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.myapp.BackendApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mycompany.myapp.GatewayApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JHipsterRegistryApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jhipster-registry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.github.jhipster.registry.JHipsterRegistryApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d8e065f6-509d-44c2-bf5d-102118036571" name="Default Changelist" comment="" />
+      <created>1563321197609</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563321197609</updated>
+      <workItem from="1563321210001" duration="5028000" />
+      <workItem from="1563327051138" duration="44000" />
+      <workItem from="1563329372206" duration="1078000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6150000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" weight="0.24962178" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mn" />
+    <option name="LAST_COMMIT_MESSAGE" value="mn" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/manifest.webapp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/i18n/en/toDoItems.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/status.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/backendProduct.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/error.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/toDoItems.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/errors/ErrorConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/service/ToDoItemsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/i18n/tr/toDoList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/ToDoItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1292">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/ToDoListResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/domain/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-688">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com/mycompany/myapp/domain/ToDoList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/shared/model/to-do-list.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/shared/model/to-do-items.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main/java/com/mycompany/myapp/web/rest/ToDoItemsResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-items/to-do-items-update.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/node_modules/@angular/forms/forms.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="2097" column="19" lean-forward="true" selection-start-line="2097" selection-start-column="19" selection-end-line="2097" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/test/javascript/spec/app/entities/to-do-list/to-do-list.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/account/settings/settings.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="55" column="79" selection-start-line="55" selection-start-column="79" selection-end-line="55" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/account/settings/settings.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-detail.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-update.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/entities/to-do-list/to-do-list-update.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="126" selection-start-line="17" selection-start-column="126" selection-end-line="17" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/webapp/app/admin/user-management/user-management-update.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

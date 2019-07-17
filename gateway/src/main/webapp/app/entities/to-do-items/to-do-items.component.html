@@ -1,0 +1,69 @@
+<div>
+    <h2 id="page-heading">
+        <span jhiTranslate="gatewayApp.toDoItems.home.title">To Do Items</span>
+        <button id="jh-create-entity" class="btn btn-primary float-right jh-create-entity create-to-do-items" [routerLink]="['/to-do-items/new']">
+            <fa-icon [icon]="'plus'"></fa-icon>
+            <span  jhiTranslate="gatewayApp.toDoItems.home.createLabel">
+            Create new To Do Items
+            </span>
+        </button>
+    </h2>
+    <jhi-alert></jhi-alert>
+    <br/>
+    <div class="alert alert-warning" *ngIf="toDoItems?.length === 0">
+        <span jhiTranslate="gatewayApp.toDoItems.home.notFound">No toDoItems found</span>
+    </div>
+    <div class="table-responsive" *ngIf="toDoItems?.length > 0">
+        <table class="table table-striped">
+            <thead>
+            <tr jhiSort [(predicate)]="predicate" [(ascending)]="reverse" [callback]="reset.bind(this)">
+            <th jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="todoItemName"><span jhiTranslate="gatewayApp.toDoItems.todoItemName">Todo Item Name</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="description"><span jhiTranslate="gatewayApp.toDoItems.description">Description</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="deadline"><span jhiTranslate="gatewayApp.toDoItems.deadline">Deadline</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="status"><span jhiTranslate="gatewayApp.toDoItems.status">Status</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th jhiSortBy="toDoList.todoListName"><span jhiTranslate="gatewayApp.toDoItems.toDoList">To Do List</span> <fa-icon [icon]="'sort'"></fa-icon></th>
+            <th></th>
+            </tr>
+            </thead>
+            <tbody infinite-scroll (scrolled)="loadPage(page + 1)" [infiniteScrollDisabled]="page >= links['last']" [infiniteScrollDistance]="0">
+            <tr *ngFor="let toDoItems of toDoItems ;trackBy: trackId">
+                <td><a [routerLink]="['/to-do-items', toDoItems.id, 'view' ]">{{toDoItems.id}}</a></td>
+                <td>{{toDoItems.todoItemName}}</td>
+                <td>{{toDoItems.description}}</td>
+                <td>{{toDoItems.deadline | date:'medium'}}</td>
+                <td jhiTranslate="{{'gatewayApp.Status.' + toDoItems.status}}">{{toDoItems.status}}</td>
+                <td>
+                    <div *ngIf="toDoItems.toDoList">
+                        <a [routerLink]="['../to-do-list', toDoItems.toDoList?.id, 'view' ]" >{{toDoItems.toDoList?.todoListName}}</a>
+                    </div>
+                </td>
+                <td class="text-right">
+                    <div class="btn-group">
+                        <button type="submit"
+                                [routerLink]="['/to-do-items', toDoItems.id, 'view' ]"
+                                class="btn btn-info btn-sm">
+                            <fa-icon [icon]="'eye'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/to-do-items', toDoItems.id, 'edit']"
+                                class="btn btn-primary btn-sm">
+                            <fa-icon [icon]="'pencil-alt'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                        </button>
+                        <button type="submit"
+                                [routerLink]="['/', 'to-do-items', { outlets: { popup: toDoItems.id + '/delete'} }]"
+                                replaceUrl="true"
+                                queryParamsHandling="merge"
+                                class="btn btn-danger btn-sm">
+                            <fa-icon [icon]="'times'"></fa-icon>
+                            <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                        </button>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
